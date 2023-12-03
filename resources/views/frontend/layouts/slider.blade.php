@@ -15,55 +15,52 @@
             <div class="slider-one__item">
                 <div class="slider-one__image"
                     style="background-image: url(/images/banner1.jpeg);"></div>
-                <!-- /.slider-one__image -->
+                
                 <div class="container">
-                    <h2 class="slider-one__title">Be a <span>voice</span> <br>
-                        for poor people</h2><!-- /.slider-one__title -->
-                    <p class="slider-one__text">We are here to support you every step of the way</p>
-                    <!-- /.slider-one__text -->
+                    <h2 class="slider-one__title">Empowering <br/><span>Lives</span>, Creating Futures</h2>
+                    <p class="slider-one__text">Inna-Tafidah-Boya Foundation Celebrates the Graduation of 200 Entrepreneurs</p>
+                    
                     <div class="slider-one__btns">
-                        <a href="about.html" class="thm-btn slider-one__btn">
-                            <span>Discover More</span>
-                        </a><!-- /.thm-btn slider-one__btn -->
-                    </div><!-- /.slider-one__btns -->
-                </div><!-- /.container -->
-            </div><!-- /.slider-one__item -->
-        </div><!-- /.item -->
+                        <a href="{{ route('projects.all') }}" class="thm-btn slider-one__btn">
+                            <span>Explore Our Impact</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="item">
             <div class="slider-one__item">
                 <div class="slider-one__image"
                     style="background-image: url(/images/banner2.jpeg);"></div>
-                <!-- /.slider-one__image -->
+                
                 <div class="container">
-                    <h2 class="slider-one__title">Be a <span>voice</span> <br>
-                        for poor people</h2><!-- /.slider-one__title -->
-                    <p class="slider-one__text">We are here to support you every step of the way</p>
-                    <!-- /.slider-one__text -->
+                    <h2 class="slider-one__title">Mission: <span>Breaking</span><br> the Chains of Poverty</h2>
+                    <p class="slider-one__text">Reinforcing people with the ability to rise above the poverty cycle and be of importance to themselves and society</p>
+                    
                     <div class="slider-one__btns">
-                        <a href="about.html" class="thm-btn slider-one__btn">
-                            <span>Discover More</span>
-                        </a><!-- /.thm-btn slider-one__btn -->
-                    </div><!-- /.slider-one__btns -->
-                </div><!-- /.container -->
-            </div><!-- /.slider-one__item -->
-        </div><!-- /.item -->
+                        <a href="{{ route('about') }}" class="thm-btn slider-one__btn">
+                            <span>Learn About Our Mission</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="item">
             <div class="slider-one__item">
                 <div class="slider-one__image"
                     style="background-image: url(/images/banner3.jpeg);"></div>
-                <!-- /.slider-one__image -->
+                
                 <div class="container">
-                    <h2 class="slider-one__title">Be a <span>voice</span> <br>
-                        for poor people</h2><!-- /.slider-one__title -->
-                    <p class="slider-one__text">We are here to support you every step of the way</p>
-                    <!-- /.slider-one__text -->
+                    <h2 class="slider-one__title">Building <span>Dreams</span>,<br/> Transforming Communities</h2>
+                    <p class="slider-one__text">From Boreholes to Educational Initiatives, Explore Our Impact Across Various Sectors.</p>
+                    
                     <div class="slider-one__btns">
-                        <a href="about.html" class="thm-btn slider-one__btn">
-                            <span>Discover More</span>
-                        </a><!-- /.thm-btn slider-one__btn -->
-                    </div><!-- /.slider-one__btns -->
-                </div><!-- /.container -->
-            </div><!-- /.slider-one__item -->
-        </div><!-- /.item -->
-    </div><!-- /.thm-owl__carousel -->
+                        <a href="{{ route('projects.all') }}" class="thm-btn slider-one__btn">
+                            <span>Discover Our Achievements</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

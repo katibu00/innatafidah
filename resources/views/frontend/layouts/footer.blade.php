@@ -19,9 +19,7 @@
             <ul class="list-unstyled site-footer__widget__links">
               <li><a href="donations.html">Recent causes</a></li>
               <li><a href="about.html">About us</a></li>
-              <li><a href="donations-details.html">New campaign</a></li>
-              <li><a href="about.html">Site map</a></li>
-              <li><a href="events.html">Events</a></li>
+              
             </ul><!-- /.list-unstyled site-footer__widget__links -->
           </div><!-- /.site-footer__widget -->
         </div><!-- /.col-sm-12 col-md-6 col-lg-6 col-xl-2 wow fadeInUp -->
@@ -32,10 +30,7 @@
             <!-- /.site-footer__widget__title -->
             <ul class="list-unstyled site-footer__widget__links">
               <li><a href="donations-details.html">Differently abled kids</a></li>
-              <li><a href="donations-details.html">Help child cancer</a></li>
-              <li><a href="donations-details.html">Clean pure water</a></li>
-              <li><a href="donations-details.html">Give them education</a></li>
-              <li><a href="donations-details.html">Start a fundraising</a></li>
+    
             </ul><!-- /.list-unstyled site-footer__widget__links -->
           </div><!-- /.site-footer__widget -->
         </div><!-- /.col-sm-12 col-md-6 col-lg-6 col-xl-2 wow fadeInUp -->
@@ -47,11 +42,11 @@
             <ul class="list-unstyled site-footer__widget__contact">
               <li>
                 <i class="fa fa-envelope-open"></i>
-                <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                <a href="mailto:{{ $settings->email }}">{{ $settings->email }}</a>
               </li>
               <li>
                 <i class="fa fa-mobile"></i>
-                <a href="tel:+1(307)776-0608">+ 1 (307) 776-0608</a>
+                <a href="tel:{{ $settings->phone_number }}">{{ $settings->phone_number }}</a>
               </li>
             </ul><!-- /.list-unstyled site-footer__widget__contact -->
           </div><!-- /.site-footer__widget -->

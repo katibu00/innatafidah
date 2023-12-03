@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\SettingsController;
+use App\Http\Controllers\TeamMemberController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
@@ -99,6 +100,8 @@ Route::group(['prefix' => 'settings', 'middleware' => ['auth','admin']], functio
     Route::post('/admin/settings/update', [SettingsController::class, 'update'])->name('settings.update');
 
 });
+
+Route::resource('team-members', TeamMemberController::class);
 
 
 Route::group(['prefix' => 'admins', 'middleware' => ['auth','admin']], function () {
