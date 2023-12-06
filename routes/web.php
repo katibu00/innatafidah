@@ -28,7 +28,7 @@ Route::get('/', [HomeController::class, 'guest'])->name('homepage');
 // Route::get('/', [HomeController::class, 'guest'])->name('home');
 Route::get('/who-we-are', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
-Route::get('/our-founder', [PagesController::class, 'founder'])->name('founder');
+Route::get('/our-team-members', [PagesController::class, 'team'])->name('team');
 
 Route::get('/home', function(){
    

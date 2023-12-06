@@ -396,7 +396,7 @@
                             </li>
                            
                         </ul>
-                        <h2><a href="{{ route('blogs.show', ['slug' => $blog->slug]) }}"></a> {{ $blog->title }}</h2>
+                        <h2><a href="{{ route('blogs.show', ['slug' => $blog->slug]) }}">{{ $blog->title }}</a> </h2>
                         <div class="author-box">
                             <div class="img"> <img src="/default.png" alt="" /> </div>
                             <div class="name">
