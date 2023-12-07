@@ -25,7 +25,19 @@
     <link rel="shortcut icon" href="/{{ $settings->logo }}" type="image/x-icon">
     <link rel="icon" href="/{{ $settings->logo }}" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+    <meta name="description" content="Empowering lives through education, healthcare, and community development. Join us on our transformative journey.">
+    <meta name="keywords" content="Inna-Tafidah-Boya Foundation, Education, Healthcare, Community Development">
+    <meta name="author" content="TechFushion Labs">
+
+    <meta property="og:title" content="Inna-Tafidah-Boya Foundation">
+    <meta property="og:description" content="Empowering lives through education, healthcare, and community development. Join us on our transformative journey.">
+    <meta property="og:image" content="/{{ $settings->logo }}">
+    <meta property="og:url" content="Your website URL">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#3498db"> 
+</head>
 
 <body>
    
